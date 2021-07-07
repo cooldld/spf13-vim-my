@@ -1235,3 +1235,9 @@ nnoremap <Space>c :cs find c <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Space>s :cs find s <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Space>t :cs find t <C-R>=expand("<cword>")<CR><CR>
 nnoremap <Space>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+
+"switch buffer hotkey
+nnoremap <C-left> :bp<CR>
+nnoremap <C-right> :bn<CR>
+nnoremap <C-up> :bf<CR>
+nnoremap <C-down> :bl<CR>
