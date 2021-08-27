@@ -1241,3 +1241,4 @@ nnoremap <C-left> :bp<CR>
 nnoremap <C-right> :bn<CR>
 nnoremap <C-up> :bf<CR>
 nnoremap <C-down> :bl<CR>
+nnoremap <C-j> :b#<CR>
